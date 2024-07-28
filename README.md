@@ -69,7 +69,7 @@ where `α > 0` is the shape parameter and `β > 0` is the scale parameter.
 ## Usage
 
 ```javascript
-import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-stdev@deno/mod.js';
+import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-stdev@v0.2.2-deno/mod.js';
 ```
 
 #### stdev( alpha, beta )
@@ -150,7 +150,7 @@ v = stdev( 1.0, -1.0 );
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@deno/mod.js';
-import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-stdev@deno/mod.js';
+import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-stdev@v0.2.2-deno/mod.js';
 
 var alpha;
 var beta;
