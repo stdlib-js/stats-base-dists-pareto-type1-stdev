@@ -69,6 +69,11 @@ where `α > 0` is the shape parameter and `β > 0` is the scale parameter.
 ## Usage
 
 ```javascript
+import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-stdev@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-pareto-type1-stdev/tags). For example,
+
+```javascript
 import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-stdev@v0.3.1-deno/mod.js';
 ```
 
@@ -151,7 +156,7 @@ v = stdev( 1.0, -1.0 );
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-stdev@v0.3.1-deno/mod.js';
+import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-pareto-type1-stdev@deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
