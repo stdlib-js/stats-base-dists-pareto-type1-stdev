@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-14)
+## Unreleased (2026-09-25)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`455f0d5`](https://github.com/stdlib-js/stdlib/commit/455f0d52ac8f65c1ceb8113b5a995ee6f6888e22) - **test:** migrate `stats/base/dists/pareto-type1/stdev` to ULP-based assertions [(#15532)](https://github.com/stdlib-js/stdlib/pull/15532) _(by Devansh Patel)_
 -   [`ccc3c46`](https://github.com/stdlib-js/stdlib/commit/ccc3c46246b611479e4df9aa7d4ca0a523e28731) - **chore:** clean-up [(#14138)](https://github.com/stdlib-js/stdlib/pull/14138) _(by Philipp Burckhardt)_
 -   [`9430db6`](https://github.com/stdlib-js/stdlib/commit/9430db645b6b1d36afb35e2fe3275d9ce4c384b8) - **refactor:** reuse variance implementation for stdev in `stats/base/dists` [(#11370)](https://github.com/stdlib-js/stdlib/pull/11370) _(by Om-A-osc, Athan Reines)_
 -   [`3badc70`](https://github.com/stdlib-js/stdlib/commit/3badc707161e55feca4501c7d031171a7813eb39) - **bench:** refactor to use string interpolation in `stats/base/dists/pareto-type1` [(#10467)](https://github.com/stdlib-js/stdlib/pull/10467) _(by Vishal Gaikwad)_
@@ -27,9 +28,10 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Devansh Patel
 -   Om-A-osc
 -   Philipp Burckhardt
 -   Vishal Gaikwad
